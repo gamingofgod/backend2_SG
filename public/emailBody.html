@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurar Contraseña</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurar Contraseña</h1>
+    <p>Hola {{docente_nombre}},</p>
+    <p>Hemos recibido una solicitud para restablecer la contraseña de tu cuenta.</p>
+    <p>Por favor, haz clic en el siguiente enlace para proceder con la restauración de tu contraseña:</p>
+    <p><a href="{{url_restauracion}}">Restaurar Contraseña</a></p>
+    <p>Si no has solicitado este cambio, puedes ignorar este mensaje.</p>
+    <p>Gracias,</p>
+    <p>El equipo de [Nombre de la Empresa]</p>
+</body>
+</html>
